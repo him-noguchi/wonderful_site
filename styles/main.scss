@@ -1,5 +1,16 @@
+body {
+  background-image: url(https://wonderful-wife.net/wp-content/themes/agent_tcd033/img/w_code/head_bg.jpg);
+}
+
 .box {
   text-align: center;
+  background-color: white;
+  width: 600px;
+  margin: auto;
+  border: 6px solid black ;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 7px;
 }
 
 .guide {
@@ -12,6 +23,7 @@
 
 .important {
   background: linear-gradient(transparent 60%, yellow 50%);
+  font-weight: bold;
 }
 
 a {
@@ -25,9 +37,15 @@ a {
   margin: auto;
   text-decoration: none;
   color: white;
+  transition: opacity 0.3s;
+  font-size: 15px;
+}
+
+a:hover {
+  opacity: 0.5;
 }
 
 .caution {
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 30px;
 }
