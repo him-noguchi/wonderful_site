@@ -1,6 +1,8 @@
-body {
+.head {
   background: url(https://wonderful-wife.net/wp-content/themes/agent_tcd033/img/w_code/head_bg.jpg) no-repeat center center;
   background-size: cover;
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 
 .box {
@@ -61,5 +63,26 @@ a:hover {
 .caution {
   font-size: 13px;
   margin-top: 30px;
+}
+
+.headtxt {
+  background: black;
+  color: white;
+}
+
+.text {
+  width: 800px;
+  margin: auto;
+  padding: 120px 0 30px 0;
+}
+
+h2 {
+  margin-top: 0;
+  border-bottom: white solid 1px;
+  text-align: center;
+}
+
+.text p {
+  margin: 5px;
 }
 /*# sourceMappingURL=main.css.map */
