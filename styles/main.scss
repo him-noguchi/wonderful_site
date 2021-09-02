@@ -1,0 +1,85 @@
+.head {
+  background: url(https://wonderful-wife.net/wp-content/themes/agent_tcd033/img/w_code/head_bg.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.box {
+  text-align: center;
+  background-color: white;
+  width: 700px;
+  margin: auto;
+  border: 6px solid black ;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+
+h1 {
+  font-size: 37px;
+}
+.guide {
+  margin-top: -25px;
+}
+
+.copywriting {
+  font-size: 18px;
+}
+
+.copywriting p {
+  font-size: 20px;
+  margin: 7px;
+}
+
+.important {
+  background: linear-gradient(transparent 60%, yellow 50%);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+a {
+  display: block;
+  width: 550px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-color: rgba(27, 155, 240, 0.877);
+  border-color: rgba(27, 155, 240, 0.877);
+  border-radius: 5px;
+  margin: auto;
+  text-decoration: none;
+  color: white;
+  transition: opacity 0.3s;
+  font-size: 16px;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.caution {
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+.headtxt {
+  background: black;
+  color: white;
+}
+
+.text {
+  width: 800px;
+  margin: auto;
+  padding: 120px 0 30px 0;
+}
+
+h2 {
+  margin-top: 0;
+  border-bottom: white solid 1px;
+
+  text-align: center;
+}
+
+.text p {
+  margin: 5px;
+}
