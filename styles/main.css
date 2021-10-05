@@ -173,4 +173,13 @@ li {
   white-space: nowrap;
   padding: 14px 20px 12px;
 }
+
+@media screen and (max-width: 959px) {
+  .navbar {
+    display: none;
+  }
+  .info {
+    display: none;
+  }
+}
 /*# sourceMappingURL=main.css.map */

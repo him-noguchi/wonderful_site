@@ -106,10 +106,6 @@ h2 {
   margin-right: auto;
 }
 
-.row {
-
-}
-
 .logo-wrap {
   width: 16.666%;
   float: left;
@@ -175,4 +171,15 @@ li {
   padding-bottom: 13px;
   white-space: nowrap;
   padding: 14px 20px 12px;
+}
+
+@media screen and (max-width: 959px) {
+  .navbar {
+    display: none;
+  }
+
+  .info {
+    display: none;
+  }
+
 }
