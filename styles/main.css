@@ -173,4 +173,51 @@ li {
   white-space: nowrap;
   padding: 14px 20px 12px;
 }
+
+@media screen and (max-width: 959px) {
+  .navbar {
+    display: none;
+  }
+  .info {
+    display: none;
+  }
+  #hamburger {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 25px;
+    margin: 42px 20px 0 auto;
+  }
+  #hamburger span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #4b4949;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  #hamburger::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #4b4949;
+  }
+  #hamburger::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #4b4949;
+  }
+}
 /*# sourceMappingURL=main.css.map */
