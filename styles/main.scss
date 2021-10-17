@@ -7,7 +7,7 @@ body {
   background: url(https://wonderful-wife.net/wp-content/themes/agent_tcd033/img/w_code/head_bg.jpg) no-repeat center center;
   background-size: cover;
   padding-top: 160px;
-  padding-bottom: 160px;
+  padding-bottom: 0;
 }
 
 .box {
@@ -173,6 +173,33 @@ li {
   padding: 14px 20px 12px;
 }
 
+.onli_pc {
+  display: block;
+}
+.w_code_list {
+  text-align: center;
+  color: #fff;
+  max-width: 800px;
+  margin: 0 auto -80px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: -80px;
+
+  div {
+    width: 32%;
+    display: block;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.only_sp {
+  display: none;
+}
+
 @media screen and (max-width: 959px) {
   .navbar {
     display: none;
@@ -223,4 +250,42 @@ li {
     background-color: #4b4949;
   }
 
+  .box {
+    max-width: 90%;
+
+    h1 {
+      font-size: calc(46*(100vw/750));
+    }
+
+    .guide {
+      font-size: calc(22*(100vw/750));
+    }
+
+    .copywriting {
+      p {
+        font-size: calc(34*(100vw/750));
+      }
+    }
+
+    .important {
+      font-size: calc(36*(100vw/750));
+    }
+
+    .buy {
+      font-size: calc(35*(100vw/750));
+      width: 90%;
+    }
+
+    .caution {
+      font-size: 0.8em;
+    }
+  }
+
+  .only_pc {
+    display: none;
+  }
+
+  .only_sp {
+    display: block;
+  }
 }
