@@ -173,7 +173,7 @@ li {
   padding: 14px 20px 12px;
 }
 
-.onli_pc {
+.only_pc {
   display: block;
 }
 .w_code_list {
@@ -201,6 +201,10 @@ li {
 }
 
 @media screen and (max-width: 959px) {
+  .head {
+    padding-bottom: 30px;
+  }
+
   .navbar {
     display: none;
   }
@@ -288,4 +292,27 @@ li {
   .only_sp {
     display: block;
   }
+
+  .w_code_list {
+    text-align: center;
+    color: #fff;
+    margin: 0 auto 3em;
+    width: 60%;
+    max-width: 800px;
+    font-size: calc(33*(100vw/750));
+    display: flex;
+    flex-wrap: wrap;
+
+
+    div {
+      width: 100%;
+      display: block;
+      padding: 0 10%;
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+
 }
